@@ -4,15 +4,55 @@ body{
     color: aliceblue;
 }
 h1{
-    color:rgb(255, 8, 0);
-    
+    color:blue;
+    text-decoration: underline rgb(42, 204, 245);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h2{
+  color:yellow;
+}
+h3{
+  color:rgb(128, 245, 245);
 }
 p{
     color: rgb(255, 255, 255);
-
 }
-
-
+.indice{
+  color: rgb(91, 255, 173); 
+}
+ul{
+  color: rgb(235, 110, 110);
+}
+section{
+  justify-content: center;
+  align-items: center;
+}
+.laboral{
+  background: 
+    linear-gradient(rgb(232,39,197),rgb(42, 204, 245));
+  background-size: cover;
+  border-style: solid;
+}
+.estudios{
+  background: 
+    linear-gradient(rgb(74, 223, 250),rgb(102, 59, 221));
+  background-size: cover;
+  border-style: solid;
+}
+.premios{
+  background: 
+    linear-gradient(rgb(102, 59, 221),rgb(52, 243, 154));
+  background-size: cover;
+  border-style: solid;
+}
+.produccion{
+  background: 
+    linear-gradient(rgb(52, 243, 154),rgb(230, 85, 92));
+  background-size: cover;
+  border-style: solid;
+}
 .titulo {
   padding: 10pt;
   text-align: center;
