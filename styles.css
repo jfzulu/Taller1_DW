@@ -28,8 +28,16 @@ ul{
 section{
   justify-content: center;
   align-items: center;
+  background: 
+  linear-gradient(rgb(232,39,197),rgb(42, 204, 245));
+  background-size: cover;
+  border-style: solid;
 }
-.laboral{
+.cambioColor{
+  background: 
+  linear-gradient(grey,grey);
+}
+.vueltaColor{
   background: 
     linear-gradient(rgb(232,39,197),rgb(42, 204, 245));
   background-size: cover;
