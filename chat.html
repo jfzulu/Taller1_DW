@@ -1,18 +1,47 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title>Chat</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="application-name" content="chat-page">
+        <meta name="author" content="Anderson Alvarado">
+        <meta name="keywords" content="chat">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Last-Modified" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        
+    </head>
+    <body>
+        <h1>Chat</h1>
+        <div>
+            <h4>Escribe el mensaje</h4>
+            <!–- class para css id para js -–>
+            <form class="formulario" id="formulario" autocomplete="off"> 
+                <div class="formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre:</label><br>
+                    <input type="text" class="formulario__input" name="nombre" id="nombre" 
+                           required autofocus placeholder="Digita tu nombre" maxlength="50"><br>
+                </div>
+                <div class="formulario__grupo" id="grupo__mensaje">
+                    <label for="mensaje" class="formulario__label">Mensaje:</label><br>
+                    <input type="text" class="formulario__input" name="mensaje" id="mensaje" 
+                           required autofocus placeholder="Escribe un mensaje"><br>
+                    <p class="formulario__input-error">Mensaje supera los 300 carácteres</p>
+                </div>
+                <div class="formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">
+                        Mensaje enviado correctamente
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div>
+            <p id="mensajeEnviado">
 
-<head>
-    <title>Chat</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="utf-8">
-    <meta name="application-name" content="jfzulu-page">
-    <meta name="author" content="Jose Fernando Zuluaga">
-    <meta name="keywords" content="programmer, profile">
-    <meta http-equiv="Content-Security-Policy" content="default-src https: ">
-    <meta http-equiv="Expires" content="0">
-    <meta http-equiv="Last-Modified" content="0">
-    <meta http-equiv="Pragma" content="no-cache">
-</head>
-
-
-
+            </p>
+        </div>
+        <script type="text/javascript" src="prueba.js"></script>
+    </body>
 </html>
