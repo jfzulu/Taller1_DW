@@ -207,3 +207,16 @@ img[alt=Firefox]{
 .formulario__mensaje-exito-activo{
   display: block;
 }
+.chat-messages{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.messages{
+  list-style: none;
+  background-color: rgb(123, 250, 197);
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  position: relative;
+  color:#000000;
+}
