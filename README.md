@@ -3,4 +3,4 @@ Repositorio correspondiente al Taller 1 del curso de desarollo web de la Pontifi
 
 # Integrantes
 ### [Anderson Alvarado](https://github.com/andersonjalvarado) 
-### [Jose Zuluaga](https://github.com/jfzulu)
+### [Jose Fernando Zuluaga Ortiz](https://github.com/jfzulu)
