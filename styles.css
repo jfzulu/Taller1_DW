@@ -9,6 +9,7 @@ h1{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 40px;
 }
 h2{
   color:yellow;
@@ -219,4 +220,45 @@ img[alt=Firefox]{
   padding: 10px;
   position: relative;
   color:#000000;
+}
+
+.intereses-links{
+  text-align: center;
+}
+.intereses-links a{
+  display: block;
+  
+  position: static;
+  text-align: center;
+  padding: 14px 16px;
+  border: solid red;
+  background-color: white;
+}
+
+.navbar {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  margin-bottom: 50px;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
